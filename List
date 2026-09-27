@@ -21,6 +21,15 @@ module.Codes = {
 		Icon = 11219465699
 	},
 
+	["BIRGULA2026"] = {
+		Type = "Skill",
+		Skill = "ImpulsoSombrio",
+		Duration = "30m",
+		OneUsePerPlayer = true,
+		Active = true,
+		Stack = false,
+	},
+
 	["BITCOINS"] = {
 		Type = "Bitcoin",
 		Amount = "10000",
