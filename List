@@ -1,20 +1,20 @@
 local module = {}
 
 module.Codes = {
-	["GVW"] = {
+	["40K"] = {
 		Type = "Race",
-		Race = "Carecas",
-		Duration = "1h",
+		Race = "Anjo",
+		Duration = "1d",
 		OneUsePerPlayer = true,
 		Active = true,
 		Stack = false,
-		Icon = 9428926661
+		Icon = 81599403581004
 	},
 	
-	["THERETURN"] = {
+	["GABEONTOP"] = {
 		Type = "Race",
-		Race = "Majin",
-		Duration = "1h",
+		Race = "Android",
+		Duration = "3h",
 		OneUsePerPlayer = true,
 		Active = true,
 		Stack = false,
@@ -29,19 +29,28 @@ module.Codes = {
 		Stack = false,
 	},
 
-	["ATTACK"] = {
+	["BULL"] = {
 		Type = "Skill",
-		Skill = "Kokusen",
+		Skill = "BullThrow",
 		Duration = "1h",
 		OneUsePerPlayer = true,
 		Active = true,
 		Stack = false,
 	},
 
-	["BROTHERS"] = {
+	["J7"] = {
+		Type = "Skill",
+		Skill = "ChuteVoador",
+		Duration = "1h",
+		OneUsePerPlayer = true,
+		Active = true,
+		Stack = false,
+	},
+
+	["DBZ"] = {
 		Type = "Char",
-		Char = "Todo",
-		Duration = "2h",
+		Char = "Zeno",
+		Duration = "1d",
 		OneUsePerPlayer = true,
 		Active = true,
 		Stack = false
