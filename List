@@ -21,6 +21,14 @@ module.Codes = {
 		Icon = 11219465699
 	},
 
+	["BITCOINS"] = {
+		Type = "Bitcoin",
+		Amount = "10000",
+		OneUsePerPlayer = true,
+		Active = true,
+		Stack = false,
+	},
+
 	["ATTACK"] = {
 		Type = "Skill",
 		Skill = "Kokusen",
