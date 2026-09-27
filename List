@@ -1,0 +1,43 @@
+local module = {}
+
+module.Codes = {
+	["GVW"] = {
+		Type = "Race",
+		Race = "Carecas",
+		Duration = "1h",
+		OneUsePerPlayer = true,
+		Active = true,
+		Stack = false,
+		Icon = 9428926661
+	},
+	
+	["THERETURN"] = {
+		Type = "Race",
+		Race = "Majin",
+		Duration = "1h",
+		OneUsePerPlayer = true,
+		Active = true,
+		Stack = false,
+		Icon = 11219465699
+	},
+
+	["ATTACK"] = {
+		Type = "Skill",
+		Skill = "Kokusen",
+		Duration = "1h",
+		OneUsePerPlayer = true,
+		Active = true,
+		Stack = false,
+	},
+
+	["BROTHERS"] = {
+		Type = "Char",
+		Char = "Todo",
+		Duration = "2h",
+		OneUsePerPlayer = true,
+		Active = true,
+		Stack = false
+	},
+}
+
+return module
